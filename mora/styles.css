@@ -1,0 +1,96 @@
+body{background-image: url("bg1.jpg");}
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;}
+p{font-size: 18px;
+    text-align: justify;
+    font-family:Roboto, Arial, sans-serif ;}
+li{font-size: 18px;
+    text-align: justify;
+    font-family: Roboto, Arial, sans-serif;}
+.sri-lanka-map{display: block;
+            width: auto;
+            max-width: 500px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            border: 7px outset rgba(0, 0, 0, 0.87);}
+.pic{width: 600px;
+    height: 450px;
+    border-radius: 25px;}
+iframe{border-radius: 25px;}
+* {box-sizing:border-box}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {display: none;}
+.slideshow-container {max-width: 700px;
+    position: relative;
+    margin: auto;
+    display: inline-block;}
+.prev, .next {cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;}
+.next {right: 0;
+        border-radius: 3px 0 0 3px;}
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
+.mySlides1,.mySlides2,.mySlides3,.mySlides4,.mySlides5 {
+    animation-name: fade;
+    animation-duration: 1.5s;}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}}
+h2{text-decoration: wavy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;}
+table{text-align: center;
+    table-layout: fixed;
+    width: 25%;
+    font-size: 18px;}
+
+    footer{text-align: center;
+    font-size: 18px;
+    padding: 3px;
+    background-color: rgba(50, 205, 50, 0.39);
+    color: white;}
+
+#footer .instagram {
+    background-image: url(insta.svg);
+    background-repeat: no-repeat;
+    border-radius: 8px;}
+#footer .whatsapp {
+    background-image: url(whatsapp.svg);
+    background-repeat: no-repeat;
+    border-radius: 12px;}
+#footer .facebook {
+    background-image: url(fb.svg);
+    background-repeat: no-repeat;
+    border-radius: 8px;}
+#footer .twitter {
+    background-image: url(twitter.svg);
+    background-repeat: no-repeat;
+    border-radius: 8px;}
+#footer a {
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+    margin: 10px;}
+#footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;}
+#footer .instagram:hover {
+    background-color: rgb(255, 255, 255);}
+#footer .whatsapp:hover {
+    background-color: rgb(255, 255, 255);}
+#footer .facebook:hover {
+    background-color: rgb(255, 255, 255);}
+#footer .twitter:hover {
+    background-color: rgb(255, 255, 255);}
+.bg-dark-1{background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);}
+.contact{font-family:Roboto, Arial, sans-serif ; }
